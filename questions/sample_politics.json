@@ -1,0 +1,56 @@
+{
+  "course_id": "politics_mao",
+  "course_name": "毛泽东思想和中国特色社会主义理论体系概论",
+  "description": "思政类核心课程，涵盖马克思主义中国化的各个历史阶段与理论成果。",
+  "category": "politics",
+  "units": [
+    {
+      "unit_id": "mao_thought",
+      "unit_name": "毛泽东思想"
+    },
+    {
+      "unit_id": "deng_theory",
+      "unit_name": "邓小平理论"
+    },
+    {
+      "unit_id": "three_represents",
+      "unit_name": "\"三个代表\"重要思想"
+    },
+    {
+      "unit_id": "scientific_outlook",
+      "unit_name": "科学发展观"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p_001",
+      "text": "毛泽东思想活的灵魂的三个基本方面是？",
+      "type": "single_choice",
+      "options": [
+        "A. 实事求是、群众路线、独立自主",
+        "B. 实事求是、武装斗争、党的建设",
+        "C. 统一战线、武装斗争、党的建设",
+        "D. 理论联系实际、密切联系群众、批评与自我批评"
+      ],
+      "answer": "A",
+      "explanation": "毛泽东思想活的灵魂是贯穿于各个理论组成部分的立场、观点和方法，有三个基本方面，即实事求是、群众路线、独立自主。这是毛泽东把马克思主义哲学运用于中国革命实践的理论成果。",
+      "unit_id": "mao_thought",
+      "difficulty": 2
+    },
+    {
+      "id": "p_002",
+      "text": "邓小平理论的首要的基本理论问题是？",
+      "type": "single_choice",
+      "options": [
+        "A. 什么是社会主义、怎样建设社会主义",
+        "B. 建设什么样的党、怎样建设党",
+        "C. 实现什么样的发展、怎样发展",
+        "D. 什么是马克思主义、怎样对待马克思主义"
+      ],
+      "answer": "A",
+      "explanation": "邓小平理论围绕\"什么是社会主义、怎样建设社会主义\"这个首要的基本理论问题，第一次比较系统地初步回答了中国社会主义的发展道路、发展阶段、根本任务等一系列基本问题。",
+      "unit_id": "deng_theory",
+      "difficulty": 1
+    }
+  ]
+}

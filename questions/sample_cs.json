@@ -1,0 +1,71 @@
+{
+  "course_id": "cs_data_structures",
+  "course_name": "数据结构与算法",
+  "description": "计算机专业核心课程，涵盖线性表、树、图、排序、查找等核心知识点。",
+  "category": "cs",
+  "units": [
+    {
+      "unit_id": "linear_list",
+      "unit_name": "线性表"
+    },
+    {
+      "unit_id": "tree",
+      "unit_name": "树与二叉树"
+    },
+    {
+      "unit_id": "graph",
+      "unit_name": "图论基础"
+    },
+    {
+      "unit_id": "sorting",
+      "unit_name": "排序算法"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_001",
+      "text": "在一个单链表中，若要删除指针 p 所指结点的后继结点，以下操作正确的是？",
+      "type": "single_choice",
+      "options": [
+        "A. p->next = p->next->next",
+        "B. p = p->next; p->next = p->next->next",
+        "C. p->next = p",
+        "D. p = p->next->next"
+      ],
+      "answer": "A",
+      "explanation": "在单链表中删除结点，只需要将前驱结点的 next 指针指向被删除结点的后继结点即可。因此 p->next = p->next->next 操作正确。",
+      "unit_id": "linear_list",
+      "difficulty": 2
+    },
+    {
+      "id": "q_002",
+      "text": "二叉树的中序遍历序列为 BDCEAFHG，后序遍历序列为 DECBHGFA，则前序遍历序列为？",
+      "type": "single_choice",
+      "options": [
+        "A. ABCDEFGH",
+        "B. ABDCEFGH",
+        "C. ABCDFEGH",
+        "D. ABCDEGHF"
+      ],
+      "answer": "A",
+      "explanation": "由后序遍历最后确定根结点为 A，中序遍历中 A 左侧为左子树(BDCE)，右侧为右子树(FHG)。递归分析可得前序遍历为 ABCDEFGH。",
+      "unit_id": "tree",
+      "difficulty": 3
+    },
+    {
+      "id": "q_003",
+      "text": "快速排序在最坏情况下的时间复杂度为？",
+      "type": "single_choice",
+      "options": [
+        "A. O(n)",
+        "B. O(n log n)",
+        "C. O(n^2)",
+        "D. O(log n)"
+      ],
+      "answer": "C",
+      "explanation": "当每次选取的枢轴元素都是当前序列的最大或最小值时（如已排序数组），快速排序退化为 O(n^2) 的时间复杂度。",
+      "unit_id": "sorting",
+      "difficulty": 2
+    }
+  ]
+}
