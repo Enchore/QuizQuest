@@ -1,0 +1,13 @@
+# QuizQuest 依赖清单
+#
+# 本项目零第三方依赖，仅使用 Python 标准库，直接运行即可：
+#   python -m app.main
+#
+# 运行时依赖（均随 Python 安装自带，无需 pip 安装）：
+#   - tkinter   桌面 GUI（Windows/macOS 官方安装包默认包含）
+#   - sqlite3   答题记录持久化
+#   - json      题库读写
+#   - platform  判断系统以调用默认播放器
+#
+# 如需生成 requirements 锁文件，可执行：
+#   pip freeze > requirements-lock.txt
