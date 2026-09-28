@@ -1,5 +1,8 @@
 # QuizQuest — 交互式课程学习闯关
 
+[![CI](https://github.com/Enchore/QuizQuest/actions/workflows/ci.yml/badge.svg)](https://github.com/Enchore/QuizQuest/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 > 面向大学生课程复习的本地答题练习工具 | Tkinter + SQLite
 
 ## 项目简介
